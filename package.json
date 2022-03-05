@@ -1,0 +1,19 @@
+{
+  "name": "mq-dip-neto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "browser-sync start --server --files ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeyerpd/mq-dip-neto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeyerpd/mq-dip-neto/issues"
+  },
+  "homepage": "https://github.com/alexeyerpd/mq-dip-neto#readme"
+}
