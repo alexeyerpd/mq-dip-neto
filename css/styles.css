@@ -742,7 +742,7 @@ body {
 .post__img {
     display: block;
     width: 100%;
-    min-height: 294px;
+    min-height: 254px;
     height: auto;
 
     background-color: var(--color-porcelain);
@@ -823,6 +823,12 @@ body {
     }
     .posts__item + .posts__item {
         margin-top: 42px;
+    }
+    .post {
+        align-items: flex-start;
+    }
+    .post__img {
+        min-height: 294px;
     }
     .post__title {
         font-size: var(--text-post-title-m-font-size);
@@ -1088,7 +1094,7 @@ body {
 }
 
 .products__item + .products__item {
-    margin-top: 42px;
+    margin-top: 27px;
 }
 
 .product {
@@ -1105,7 +1111,9 @@ body {
 }
 
 .product__content {
-    margin-top: -16px;
+    position: relative;
+    top: -16px;
+
     padding-top: 16px;
     padding-bottom: 7px;
 
@@ -1194,7 +1202,7 @@ body {
     .products__content {
         display: flex;
         flex-wrap: wrap;
-        row-gap: 48px;
+        row-gap: 27px;
         column-gap: 20px;
 
         padding-left: var(--space-20);
@@ -1210,8 +1218,8 @@ body {
         width: calc(50% - 10px);
     }
     .product__content {
+        top: -21px;
         height: 100%;
-        margin-top: -21px;
     }
     .product__img {
         min-height: 227px;
@@ -1235,7 +1243,7 @@ body {
         width: calc((100% / 3) - (130px / 3));
     }
     .product__content {
-        margin-top: -13px;
+        top: -13px;
     }
     .product__img {
         min-height: 204px;
@@ -1249,7 +1257,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 62px;
+    margin-top: 44px;
     padding: 0 var(--space-15) 38px;
 }
 
@@ -1299,7 +1307,7 @@ body {
 
 @media (min-width: 641px) {
     .footer {
-        margin-top: 73px;
+        margin-top: 52px;
         padding: 0 var(--space-35) 29px;
     }
     .copyright {
@@ -1310,7 +1318,7 @@ body {
 @media (min-width: 1200px) {
     .footer {
         max-width: 1200px;
-        margin: 86px auto 0;
+        margin: 73px auto 0;
         padding: 0 var(--space-15) 36px;
     }
     .copyright {
@@ -1423,6 +1431,8 @@ body {
 }
 
 .feedback__select {
+    margin-top: 15px;
+    
     font-size: var(--text-input-search-sml-font-size);
     line-height: var(--text-input-search-sml-line-height);
 }
@@ -1482,6 +1492,14 @@ body {
     }
     .radio__list {
         column-gap: 17px;
+    }
+    .feedback__btn-close {
+        top: -28px;
+
+        width: 19px;
+        height: 19px;
+
+        background-size: 19px;
     }
 }
 
